@@ -29,7 +29,7 @@ with(data, plot(TD,Voltage, type="l",
                 ylab="Voltage",
                 xlab="datetime"))
 
-#Third Plot Sub_metering_1, 2, and 3 against time and annotate as necessary
+#Third Plot Sub_metering_1, 2, and 3 against time and annotate and add legend
 with(data, plot(TD,Sub_metering_1, type="l",
                 ylab="Energy sub metering",
                 xlab="", ylim=c(0,38)))
